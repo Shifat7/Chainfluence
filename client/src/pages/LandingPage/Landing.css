@@ -1,0 +1,93 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../../fonts/Hilsfiger.ttf') format('truetype');
+}
+body{
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f767 18px ), repeating-linear-gradient( #fcabff55, #fd90eb59 );
+    /* background: linear-gradient(180deg, rgb(253, 233, 253) 0%, rgb(255, 227, 244) 35%, rgb(214, 192, 213) 100%);  */
+    /* padding: 2em; */
+    font-family:  poppins;
+    height: 100vh;
+}
+.Frame-3{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 1em;
+gap: 10px;
+}
+
+.Intro-text{
+    width: 100%;
+height:auto;
+
+;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 70px;
+
+color: #1E0050;
+}
+#text-g{
+    font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 36px;
+color: #68717A;
+margin-top: 1em;
+}
+nav{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+}
+li{
+    list-style: none;
+    
+}
+li > .login-btn, .Launch-btn{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 40px;
+gap: 10px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+color: #e6ffef;
+
+background: #6100FF;
+border-radius: 4px;
+}
+
+#howitworks{
+    background-image: url(../../images/image11.png);
+}
+.Won-Hackathon{
+    width: 50vw;
+}
+.Intro-Image{
+    position: absolute;
+    right: 0;
+    width: 30vw;
+}
+h1, h2, h3{
+    font-family: 'CustomFont', sans-serif;
+}
+h4, h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
